@@ -1,0 +1,19 @@
+{
+  "source_repo": "erfnzdeh/mini-c-compiler",
+  "source_url": "https://github.com/erfnzdeh/mini-c-compiler",
+  "audit_date": "2026-11-05T08:19:30.689142",
+  "findings_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 1
+  },
+  "findings": [
+    {
+      "id": "PY-EVAL-001",
+      "name": "Code injection via eval/exec",
+      "severity": "CRITICAL",
+      "cwe": "CWE-95",
+      "file": "code_gen/codeGen.py",
+      "line": 123
+    }
+  ]
+}
